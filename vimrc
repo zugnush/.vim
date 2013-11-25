@@ -263,3 +263,6 @@ if filereadable($VIRTUAL_ENV . '/.vimrc')
     source $VIRTUAL_ENV/.vimrc
 endif
 
+
+" Airline - tabline
+let g:airline#extensions#tabline#enabled = 1
