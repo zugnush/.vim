@@ -212,6 +212,7 @@ set incsearch " Incrementally search while typing a /regex
 
 """" Display
 colorscheme solarized
+"colorscheme ir_black
 
 " ==========================================================
 " Python
@@ -266,3 +267,5 @@ endif
 
 " Airline - tabline
 let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#buffer_nr_show = 1
+:imap jk <Esc>
